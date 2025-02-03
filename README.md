@@ -8,5 +8,5 @@
 
 🔎 I'm currently looking for opportunities to apply my skills and grow professionally.
 
-📬 Contact me on **[LinkedIn](www.linkedin.com/in/davide-mantica-b6264218a)**
+📬 Contact me on **[LinkedIn](www.linkedin.com/in/davide-mantica-b6264218a/)**
 
