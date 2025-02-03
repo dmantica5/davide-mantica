@@ -5,6 +5,7 @@ These projects represent my initial approach to data analysis and visualization,
 
 ## Employee Retention Analysis
 
+
 ![Employee Retention Analysis](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
 
 
