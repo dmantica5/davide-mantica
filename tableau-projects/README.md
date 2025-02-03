@@ -3,7 +3,7 @@ This section contains my Tableau projects, developed to gain hands-on experience
 
 These projects represent my initial approach to data analysis and visualization, and I'm working to further develop my skills over time. 
 
-[here](https://public.tableau.com/app/profile/davide.mantica/vizzes) you can find my Tableau page.
+[Here](https://public.tableau.com/app/profile/davide.mantica/vizzes) you can find my Tableau page.
 
 
 ## Employee Retention Analysis
