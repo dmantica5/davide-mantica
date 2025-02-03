@@ -1,11 +1,12 @@
-# 👋 Ciao, sono Davide Mantica!
-🎯 Aspiro a diventare un **Business Analyst** ed ho un forte interesse per l'analisi dei dati, la strategia d'impresa e il mercato.
+# 👋 Hi, I'm Davide Mantica!
+🎯 I strive to become a **Business Analyst** and I have a deep interest in data analysis, business strategy, and the market.
 
-🏆 Competenze:
-- 📊 **Analisi Dati**: SQL, Tableau, Excel, Google Sheets
-- 📈 **Business & Strategy**: Analisi di mercato, Benchmarking, KPI
-- 💻 **Tecnologie**: Excel, Python (base), SQL (base), Power BI/Tableau (base)
+🏆 Skills:
+- 📊 **Data Analysis**: SQL, Tableau, Excel, Google Sheets
+- 📈 **Business & Strategy**: Market Analysis, Benchmarking, KPIs
+- 💻 **Technologies**: Excel, Python (basic), SQL (basic), Power BI/Tableau (basic)
 
-🔎 Attualmente sono in cerca di opportunità per mettere in pratica le mie competenze e crescere professionalmente.
+🔎 I'm currently looking for opportunities to apply my skills and grow professionally.
 
-📬 Contattami su **[LinkedIn](https://www.linkedin.com/in/davide-mantica/)**  
+📬 Contact me on **[LinkedIn](www.linkedin.com/in/davide-mantica-b6264218a)**
+
