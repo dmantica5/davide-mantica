@@ -3,7 +3,7 @@ This section contains my Tableau projects, developed to gain hands-on experience
 
 These projects represent my initial approach to data analysis and visualization, and I'm working to further develop my skills over time.  
 
-# Employee Retention Analysis
+## Employee Retention Analysis
 
 ![Employee Retention Analysis](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
 
