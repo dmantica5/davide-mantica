@@ -1,5 +1,5 @@
 # 👋 Ciao, sono Davide Mantica!
-🎯 Aspiro a diventare un **Business Analyst** con un forte interesse per l'analisi dei dati, la strategia d'impresa e il mercato.
+🎯 Aspiro a diventare un **Business Analyst** ed ho un forte interesse per l'analisi dei dati, la strategia d'impresa e il mercato.
 
 🏆 Competenze:
 - 📊 **Analisi Dati**: SQL, Tableau, Excel, Google Sheets
