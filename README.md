@@ -4,7 +4,7 @@
 🏆 Competenze:
 - 📊 **Analisi Dati**: SQL, Tableau, Excel, Google Sheets
 - 📈 **Business & Strategy**: Analisi di mercato, Benchmarking, KPI
-- 💻 **Tecnologie**: Python (base), SQL (base), Power BI (base)
+- 💻 **Tecnologie**: Excel, Python (base), SQL (base), Power BI/Tableau (base)
 
 🔎 Attualmente sono in cerca di opportunità per mettere in pratica le mie competenze e crescere professionalmente.
 
