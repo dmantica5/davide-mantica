@@ -28,23 +28,23 @@ The visualizations were created to identify trends and potential factors contrib
 
 ## Weekly Sales Analysis of Walmart (2010-2012)
 
-# Introduction 
+### Introduction 
 This project started from a raw Excel dataset containing only numerical values with minimal context—no column names, no data types defined, and no clear indications of missing or anomalous data. To transform this into a structured and meaningful analysis, I conducted a sort of Exploratory Data Analysis (EDA), cleaned and preprocessed the dataset, and then created a dynamic Tableau dashboard to extract business insights.  
 
 ---
 
-# 1. Data Cleaning
+### 1. Data Cleaning
 
-# Date Handling  
+### Date Handling  
 The `Date` column was originally formatted as a string (`DD-MM-YYYY`). It was converted into a proper datetime format to enable accurate time-series analysis in Tableau.  
 
-# Missing Values and Duplicates  
+### Missing Values and Duplicates  
 A check was performed to detect missing values in all columns. No missing values were found, so no imputation techniques were needed.  
 The dataset was also checked for duplicate rows, but no duplicates were present.  
 
 ---
 
-# 2. Outlier Treatment
+### 2. Outlier Treatment
 Several columns contained extreme values that could skew the analysis, including:  
 - `Weekly_Sales`, with unusually high or low values  
 - `Temperature`, with extreme fluctuations  
@@ -54,13 +54,13 @@ To detect and remove outliers, the **Interquartile Range (IQR)** method was appl
 
 ---
 
-# 3. Final Formatting
+### 3. Final Formatting
 - Column names were standardized by removing spaces and special characters to ensure consistency in Tableau.  
 - Measurement scales were reviewed to maintain accuracy in visualizations.  
 
 ---
 
-# 4. Analysis in Tableau
+### 4. Analysis in Tableau
 After data cleaning, I built an interactive Tableau dashboard to make insights more accessible and visually engaging. The dashboard includes:
 - Time-series analysis of weekly sales trends over three years.
 - Correlation analysis between unemployment, temperature, and sales.
@@ -69,7 +69,7 @@ After data cleaning, I built an interactive Tableau dashboard to make insights m
 
 ---
 
-# 5. Next steps and potential improvements
+### 5. Next steps and potential improvements
 - **Advanced Predictive Modeling**: Implementing a machine learning model (e.g., ARIMA, LSTM, or XGBoost) to forecast future sales trends.
 - **Deeper Customer Insights**: Integrating demographic or customer segmentation data to analyze spending behaviors across different groups.
 - **Geospatial Analysis**: Mapping sales performance across different store locations to optimize regional strategies.
