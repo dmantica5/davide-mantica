@@ -35,10 +35,10 @@ This project started from a raw Excel dataset containing only numerical values w
 
 ### 1. Data Cleaning
 
-### Date Handling  
+#### Date Handling  
 The `Date` column was originally formatted as a string (`DD-MM-YYYY`). It was converted into a proper datetime format to enable accurate time-series analysis in Tableau.  
 
-### Missing Values and Duplicates  
+#### Missing Values and Duplicates  
 A check was performed to detect missing values in all columns. No missing values were found, so no imputation techniques were needed.  
 The dataset was also checked for duplicate rows, but no duplicates were present.  
 
