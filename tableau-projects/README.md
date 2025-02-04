@@ -27,7 +27,7 @@ The visualizations were created to identify trends and potential factors contrib
 
 
 ## Weekly Sales Analysis of Walmart (2010-2012)
-![Weekly Sales Analysis of Walmart (2010-2012)](images/Dashboard 1.png)](https://github.com/dmantica5/davide-mantica/blob/main/Dashboard%201.png)
+![Weekly Sales Analysis of Walmart (2010-2012)]([images/Dashboard 1.png)](https://github.com/dmantica5/davide-mantica/blob/main/Dashboard%201.png](https://github.com/dmantica5/davide-mantica/blob/main/Dashboard%201.png?raw=true))
 ### Introduction 
 This project started from a raw Excel dataset containing only numerical values with minimal context—no column names, no data types defined, and no clear indications of missing or anomalous data. To transform this into a structured and meaningful analysis, I conducted a sort of Exploratory Data Analysis (EDA), cleaned and preprocessed the dataset, and then created a dynamic Tableau dashboard to extract business insights.  
 
