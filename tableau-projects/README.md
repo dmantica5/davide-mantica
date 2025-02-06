@@ -87,7 +87,7 @@ This visualization is an essential tool for understanding the global CO2 emissio
 
 ## World Happiness 
 
-[worldhappiness](https://github.com/dmantica5/davide-mantica/blob/main/Foglio%202%20(1).png?raw=true)
+![worldhappiness](https://github.com/dmantica5/davide-mantica/blob/main/Foglio%202%20(1).png?raw=true)
 
 ### Data Collection and Preparation
 - I downloaded a dataset from Kaggle containing the World Happiness Score for various countries.
