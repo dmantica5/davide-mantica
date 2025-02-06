@@ -6,26 +6,6 @@ These projects represent my initial approach to data analysis and visualization,
 [Here](https://public.tableau.com/app/profile/davide.mantica/vizzes) you can find my Tableau page.
 
 
-## Employee Retention Analysis
-
-
-![Employee Retention Analysis](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
-
-
-This project analyzes employee retention using various factors such as salary level, department, work accidents, promotions, satisfaction level, and performance evaluations.
-The dataset contains information on employees who stayed with or left the company, allowing us to explore key patterns affecting retention.
-
-Key Insights:
- - The majority of employees stayed with the company (83.04%), while 16.66% left.
- - Sales is the department with the highest number of employees.
- - Most employees have a medium salary level, while fewer have a high salary.
- - Promotions in the last 5 years were rare.
- - Employees with work accidents seem to be a smaller proportion of the workforce.
- - Employee satisfaction and evaluation scores vary significantly, impacting retention.
-
-The visualizations were created to identify trends and potential factors contributing to employee turnover.
-
-
 ## Weekly Sales Analysis of Walmart (2010-2012)
 ![<img src="tableau-projects/Dashboard 1.png" width="500">](https://raw.githubusercontent.com/dmantica5/davide-mantica/refs/heads/main/Dashboard%201.png)
 ### Introduction 
@@ -141,3 +121,25 @@ Incorporating Storytelling Elements:
 Adding Filtering Options:
 - Implement filters to compare happiness scores by region, income level, or population size.
 - Allow users to select specific years (if historical data is available).
+
+
+## Employee Retention Analysis
+
+
+![Employee Retention Analysis](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
+
+
+This project analyzes employee retention using various factors such as salary level, department, work accidents, promotions, satisfaction level, and performance evaluations.
+The dataset contains information on employees who stayed with or left the company, allowing us to explore key patterns affecting retention.
+
+Key Insights:
+ - The majority of employees stayed with the company (83.04%), while 16.66% left.
+ - Sales is the department with the highest number of employees.
+ - Most employees have a medium salary level, while fewer have a high salary.
+ - Promotions in the last 5 years were rare.
+ - Employees with work accidents seem to be a smaller proportion of the workforce.
+ - Employee satisfaction and evaluation scores vary significantly, impacting retention.
+
+The visualizations were created to identify trends and potential factors contributing to employee turnover.
+
+
