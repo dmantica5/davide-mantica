@@ -78,7 +78,9 @@ This project highlights how raw, unstructured data can be transformed into actio
 
 
 ## Global CO2 Emissions
+
 ![globalco2emissions](https://github.com/dmantica5/davide-mantica/blob/main/Sheet%201.png?raw=true)
+
 This project demonstrates a data visualization created in Tableau, using a dataset on CO2 emissions across various countries and regions. The goal of the visualization is to display the amount of CO2 emissions per country and region, as well as CO2 emissions per capita, using different chart types for enhanced insight.
 
 ### Dataset Overview:
