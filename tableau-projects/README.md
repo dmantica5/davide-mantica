@@ -76,6 +76,7 @@ After data cleaning, I built an interactive Tableau dashboard to make insights m
 
 This project highlights how raw, unstructured data can be transformed into actionable business intelligence through rigorous data preprocessing, statistical analysis, and data visualization.  
 
+
 ## Global CO2 Emissions
 This project demonstrates a data visualization created in Tableau, using a dataset on CO2 emissions across various countries and regions. The goal of the visualization is to display the amount of CO2 emissions per country and region, as well as CO2 emissions per capita, using different chart types for enhanced insight.
 
