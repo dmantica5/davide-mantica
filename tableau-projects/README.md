@@ -105,31 +105,31 @@ This chart provides a visual representation of the global distribution of CO2 em
 This visualization is an essential tool for understanding the global CO2 emission patterns and can be further refined to assess the impact of various countries' policies on emission reduction.
 
 
-# World Happiness 
+## World Happiness 
 
 [worldhappiness](https://github.com/dmantica5/davide-mantica/blob/main/Foglio%202%20(1).png?raw=true)
 
-## Data Collection and Preparation
+### Data Collection and Preparation
 - I downloaded a dataset from Kaggle containing the World Happiness Score for various countries.
 - I examined and cleaned the data, checking for missing values and correcting any inconsistencies in country names to ensure proper geographical mapping.
 
-## Importing into Tableau and Geographic Mapping
+### Importing into Tableau and Geographic Mapping
 - I uploaded the dataset into Tableau and verified that the data was correctly recognized.
 - I used the country field to create a geographic visualization.
 - I assigned the Happiness Score to each country, using a color scale to highlight differences in happiness levels:
 Blue for higher scores.
 Green for lower scores.
 
-## Customizing the Map
+### Customizing the Map
 - I configured the geographic layer in Tableau using Mapbox and OSM for better visual rendering.
 - I added labels displaying the Happiness Score directly on the map.
 - I included a color bar legend to enhance readability.
 
-## Interactivity and Optimization
+### Interactivity and Optimization
 - I made the map interactive, allowing users hover over countries to see detailed information, zoom and navigate across different regions.
 - I tested the visualization to ensure that the data was accurate and easy to interpret.
 
-## Although the visualization is functional, there are several ways to improve it:
+### Although the visualization is functional, there are several ways to improve it:
 Enhancing Data Accuracy:
 - Incorporate additional metrics such as GDP per capita, life expectancy, and social support to provide more context.
 - Cross-check the dataset with other sources to ensure the latest available data is used.
