@@ -75,3 +75,27 @@ After data cleaning, I built an interactive Tableau dashboard to make insights m
 - **Geospatial Analysis**: Mapping sales performance across different store locations to optimize regional strategies.
 
 This project highlights how raw, unstructured data can be transformed into actionable business intelligence through rigorous data preprocessing, statistical analysis, and data visualization.  
+
+## Global CO2 Emissions
+This project demonstrates a data visualization created in Tableau, using a dataset on CO2 emissions across various countries and regions. The goal of the visualization is to display the amount of CO2 emissions per country and region, as well as CO2 emissions per capita, using different chart types for enhanced insight.
+
+### Dataset Overview:
+The dataset includes information on CO2 emissions (measured in kilotons) and CO2 emissions per capita across multiple countries and regions. It covers various geographic dimensions such as countries and regions like East Asia & Pacific, Europe & Central Asia, and others.
+
+### Key Features of the Visualization:
+- CO2 Emissions per Country: A map that uses point sizes to represent the CO2 emissions by country, with larger dots indicating higher emissions.
+- CO2 Emissions per Capita by Region: A breakdown of CO2 emissions per capita across different regions, displayed on a world map with multiple charts for each region.
+- Customization Options: The chart allows further customization through the use of color, size, and label options to better represent the data. The color is based on the amount of CO2 (kt), with a color gradient to 
+  highlight the scale of emissions.
+- Interactive Features: Users can interact with the visualization by hovering over points for detailed information about each country or region’s CO2 emissions.
+
+### Tableau Tools and Features Used:
+- Data Connection: Connected the CO2 dataset to Tableau and imported it as the data source.
+- Geographic Dimensions: Utilized the geographic dimension (Country Name) to generate a map visualization of CO2 emissions.
+- Measure Aggregation: Used CO2 (kt) and CO2 per capita as the key measures to aggregate and visualize the data.
+- Customization: Adjusted color, size, and labels to make the data more intuitive and visually appealing.
+
+### Insights:
+This chart provides a visual representation of the global distribution of CO2 emissions, highlighting the countries and regions that contribute most significantly to global emissions. It also helps identify regions with high CO2 emissions per capita, offering insights into the carbon intensity of different areas.
+
+This visualization is an essential tool for understanding the global CO2 emission patterns and can be further refined to assess the impact of various countries' policies on emission reduction.
