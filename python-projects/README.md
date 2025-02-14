@@ -14,5 +14,4 @@ The project aims to identify the key factors influencing employees' decisions to
 ## Impact
 The insights from this analysis provide strategic value to Salifort Motors, enabling proactive interventions to retain key employees and optimize costs associated with turnover.
 
-Let me know if you need further refinements or additional details.
 
