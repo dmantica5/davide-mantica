@@ -49,6 +49,16 @@ First, I imported the necessary packages.
 
 ![](https://github.com/dmantica5/davide-mantica/blob/main/img.png?raw=true)
 
+Then, I loaded the dataset
+
+![](https://github.com/dmantica5/davide-mantica/blob/main/img2.png?raw=true)
+
+STEP 2: EDA (Exploratory Data Analysis)
+In the second step, during the EDA process, I analyzed the variables and cleaned the dataset.
+
+![](https://github.com/dmantica5/davide-mantica/blob/main/img3.png?raw=true)
+![](https://github.com/dmantica5/davide-mantica/blob/main/img4.png?raw=true)
+
 
 
 
