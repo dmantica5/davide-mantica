@@ -29,10 +29,15 @@ By following the PACE framework, an EDA process becomes structured, repeatable, 
 
 ### PLAN
 The planning phase is where the project's purpose is defined, and the steps required to complete it are developed.
+
 The capstone project of the course involved a data analysis project for the fictional company Salifort Motors. The challenge focused on improving employee satisfaction within the company. The task was to better understand the reasons why employees were leaving and to propose data-driven solutions based on information collected by the HR department.
+
 Through data analysis, I aimed to identify the key factors influencing employees' decisions to leave the company. Using data analysis and machine learning techniques, I was guided through the development of a predictive model in Jupyter Notebook, capable of accurately forecasting whether and when an employee is likely to leave.
+
 This analysis and the predictive model I developed offer a strategic opportunity for Salifort Motors. The company can leverage these insights to take proactive measures, retain key employees, and reduce turnover-related costs such as recruitment and training.
+
 STEP 1: Importing
+
 First, I imported the necessary packages.
 
 
