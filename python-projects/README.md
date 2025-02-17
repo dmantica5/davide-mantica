@@ -47,6 +47,7 @@ STEP 1: Importing
 
 First, I imported the necessary packages.
 
+![](https://github.com/dmantica5/davide-mantica/blob/main/img.png?raw=true)
 
 
 
