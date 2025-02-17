@@ -18,6 +18,8 @@ The insights from this analysis provide strategic value to Salifort Motors, enab
 The project follows the PACE framework.
 The PACE framework (Plan, Analyze, Construct, Execute) provides a structured approach to Exploratory Data Analysis (EDA) in Python projects. It ensures a systematic workflow for understanding, processing, and deriving insights from data before further modeling or decision-making.
 
+![](https://github.com/dmantica5/davide-mantica/blob/main/pace-stage.jpg?raw=true)
+
 Plan: This phase involves defining objectives, understanding the dataset, and setting up the development environment. Establishing a clear roadmap helps in efficiently managing resources and structuring the project.
 
 Analyze: This step focuses on inspecting the data, handling missing values, identifying patterns, and visualizing distributions. Statistical summaries and correlation analysis provide insights into potential relationships within the dataset.
