@@ -57,6 +57,7 @@ Then, I loaded the dataset
 
 
 STEP 2: EDA (Exploratory Data Analysis)
+
 In the second step, during the EDA process, I analyzed the variables and cleaned the dataset.
 
 ![image](https://github.com/user-attachments/assets/1c4c7ca8-7e75-487e-83ba-b3961115cfda)
