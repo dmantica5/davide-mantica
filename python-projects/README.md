@@ -60,8 +60,29 @@ In the second step, during the EDA process, I analyzed the variables and cleaned
 ![](https://github.com/dmantica5/davide-mantica/blob/main/img3.png?raw=true)
 ![](https://github.com/dmantica5/davide-mantica/blob/main/img4.png?raw=true)
 
+I renamed the columns for standardization.
 
+![](https://github.com/dmantica5/davide-mantica/blob/main/img5.png?raw=true)
 
+I checked for missing values.
+
+![](https://github.com/dmantica5/davide-mantica/blob/main/img6.png?raw=true)
+
+The analysis did not reveal any missing values.
+
+I checked for duplicates.
+
+![](https://github.com/dmantica5/davide-mantica/blob/main/img7.png?raw=true)
+
+The analysis revealed 3,008 duplicate rows, accounting for nearly 20% of the dataset.
+
+I inspected some of the duplicate rows.
+
+![Image](https://github.com/user-attachments/assets/32f39c16-5506-41b6-8043-2408f3dbfb58)
+
+By examining the first five duplicate rows in the dataframe and considering the numerous numerical columns, it is highly unlikely that two employees provided exactly the same responses for every column. Since individuals have different experiences, it is improbable that they would have identical work histories. Therefore, it is reasonable to assume that these duplicate rows are errors or accidental duplications rather than distinct entries. For this reason, they should be removed.
+
+![Image](https://github.com/user-attachments/assets/f36d69a1-fd42-4160-b214-ed8f0a7781aa)
 
 
 
