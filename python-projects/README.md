@@ -116,8 +116,11 @@ In this phase, I create histograms based on the variables that might impact the 
 ![image](https://github.com/user-attachments/assets/389f6562-6028-4acf-8c1f-3613dfd67ba7)
 
 It may be natural for people working on more projects to also work more hours. This appears to be the case here, with the average hours for each group (those who stayed and those who left) increasing with the number of projects worked on. However, a few things stand out in this graph. There are two groups of employees who left the company:
+
 •	(A) Those who worked significantly fewer hours than their colleagues with the same number of projects.
+
 •	(B) Those who worked much more.
+
 For those in group A, it's possible that they were laid off. It's also possible that this group includes employees who had already given their notice and were assigned fewer hours as they were about to leave the company.
 For those in group B, it is reasonable to deduce that they likely resigned. These individuals probably contributed a lot to the projects they worked on; they may have been the top contributors.
 Everyone who worked on seven projects left the company. The optimal number of projects for employees to work on seems to be 3–4, as the ratio of leavers to stayers is very low for these cohorts.
@@ -159,8 +162,11 @@ At this point, I examine employee promotions to confirm the hypothesis.
 ![image](https://github.com/user-attachments/assets/9cd6d9d7-8648-4258-b882-f47e93a40787)
 
 The graph above shows the following:
+
 • Since there is a very limited number of employees who have been promoted in the last five years and then left the company, it seems that promotion has been an effective retention factor.
+
 • There are very few employees who worked the highest number of hours and were also promoted, suggesting that overtime work may not have been recognized or rewarded with a promotion.
+
 • All employees who left the company without a promotion worked the highest number of hours, indicating that workload may have been a significant factor in their decision to leave.
 
 At this point, I will check the distribution of employees across the various departments.
@@ -182,14 +188,18 @@ INSIGHT: It appears that employees are leaving the company due to poor managemen
 ### CONSTRUCT
 
 In the Construct Stage of the PACE process, the most appropriate models for data analysis are determined, and their actual construction takes place. Subsequently, the model assumptions are checked, and the results are evaluated to determine how well the model fits the data.
+
 1.	IDENTIFYING THE TYPE OF PREDICTION:
 The objective is to predict whether an employee leaves the company, which is a categorical output variable. Therefore, this task involves classification. More specifically, it is a binary classification since the output variable "left" can be either 1 (indicating the employee has left) or 0 (indicating the employee has not left).
+
 2.	IDENTIFYING THE MODEL:
 Since the variable to be predicted (whether an employee leaves the company) is categorical, a logistic regression model or a machine learning model based on decision trees can be built.
 
 APPROACH A: LOGISTIC REGRESSION MODEL
 Before splitting the data, non-numeric variables need to be encoded. There are two: department and salary.
+
 •	Department is a categorical variable, meaning it can be represented using dummy encoding for the model.
+
 •	Salary is also categorical, but it is ordinal. Since there is a hierarchy between categories, it is preferable not to create dummy variables for this column. Instead, the levels should be converted into numerical values, ranging from 0 to 2.
 
 ![image](https://github.com/user-attachments/assets/2be31346-ef95-4389-a721-f9d047e97288)
