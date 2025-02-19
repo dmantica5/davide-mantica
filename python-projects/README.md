@@ -48,31 +48,34 @@ STEP 1: Importing
 
 First, I imported the necessary packages.
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img.png?raw=true)
+![image](https://github.com/user-attachments/assets/2129aacc-8e6c-4a9c-bf6b-2a2e4140128b)
+
 
 Then, I loaded the dataset
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img2.png?raw=true)
+![image](https://github.com/user-attachments/assets/be6df291-dbbe-47a6-b883-4413cfa87dd7)
+
 
 STEP 2: EDA (Exploratory Data Analysis)
 In the second step, during the EDA process, I analyzed the variables and cleaned the dataset.
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img3.png?raw=true)
-![](https://github.com/dmantica5/davide-mantica/blob/main/img4.png?raw=true)
+![image](https://github.com/user-attachments/assets/1c4c7ca8-7e75-487e-83ba-b3961115cfda)
+![image](https://github.com/user-attachments/assets/59978438-f3b9-4bd2-a9c7-7774a068db1b)
 
 I renamed the columns for standardization.
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img5.png?raw=true)
+![image](https://github.com/user-attachments/assets/6cb9c5fb-8edc-4733-8bc7-cc327a5c53be)
+![image](https://github.com/user-attachments/assets/6b4900ee-f23e-4e79-b0ed-fee22a406f6b)
 
 I checked for missing values.
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img6.png?raw=true)
+![image](https://github.com/user-attachments/assets/b9fbc55a-9170-4215-8d30-05459ba2c6a2)
 
 The analysis did not reveal any missing values.
 
 I checked for duplicates.
 
-![](https://github.com/dmantica5/davide-mantica/blob/main/img7.png?raw=true)
+![image](https://github.com/user-attachments/assets/70f6aee1-245c-430a-aa99-f7d8d1669a53)
 
 The analysis revealed 3,008 duplicate rows, accounting for nearly 20% of the dataset.
 
