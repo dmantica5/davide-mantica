@@ -227,10 +227,15 @@ I create a confusion matrix to visualize the results of the logistic regression 
 ![image](https://github.com/user-attachments/assets/8afae5c5-2ccd-48ed-951d-d08b75683c10)
 
 The top-left quadrant shows the number of true negatives. The top-right quadrant shows the number of false positives. The bottom-left quadrant shows the number of false negatives. The bottom-right quadrant shows the number of true positives.
+
 •	True negatives: The number of people who did not leave and whom the model correctly predicted would not leave.
+
 •	False positives: The number of people who did not leave and whom the model incorrectly predicted would leave.
+
 •	False negatives: The number of people who left and whom the model incorrectly predicted would not leave.
+
 •	True positives: The number of people who left and whom the model correctly predicted would leave.
+
 A perfect model would produce all true negatives and true positives, with no false negatives or false positives.
 
 I also check the class balance in the data.
