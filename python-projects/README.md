@@ -263,6 +263,7 @@ The data is realistic enough, so we can proceed with the evaluation. I create a 
 The classification report above shows that the logistic regression model achieved a precision of 79%, a recall of 82%, an F1 score of 80% (all weighted averages), and an accuracy of 82%. However, when it comes to predicting employees who leave, the scores are significantly lower.
 
 APPROACH B: DECISION TREES
+
 Let's try the implementation of the decision tree and random forest to check if they are better suited for our classification problem.
 First, I isolate the output variable.
 
