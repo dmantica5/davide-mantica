@@ -426,7 +426,7 @@ The chart above shows that in this random forest model, "last_evaluation," "numb
 
 The execution phase serves to put into practice the results obtained during the previous stages of the process. In this phase, the model's performance is interpreted, and the results are analyzed to extract useful insights. Then, steps and actions are shared with stakeholders to implement the recommendations derived from the analysis of data and models. Essentially, this phase aims to translate the model's results into concrete actions that can lead to improvements or informed decisions within the specific field where the study was conducted.
 
-MODEL RESULTS 
+# MODEL RESULTS 
 
 Logistic Regression: The logistic regression model achieved an accuracy of 80%, recall of 83%, an F1 score of 80% (all weighted averages), and an accuracy of 83% on the test set.
 
