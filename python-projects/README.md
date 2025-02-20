@@ -281,6 +281,170 @@ Decision Tree – Round 1: I build a model based on decision trees as the first 
 
 ![image](https://github.com/user-attachments/assets/ad7604ed-f86f-4189-9e5a-06a39a122a35)
 
+I fit the decision tree model to the training data.
+
+ ![image](https://github.com/user-attachments/assets/82ba56ad-5f00-4f9e-a7a5-7a79f56a783b)
+
+I identify the optimal values for the decision tree's parameters.
+
+![image](https://github.com/user-attachments/assets/bc36bb82-10d9-41e2-95ad-aadca27c05d9)
+
+I identify the best AUC score achieved by the decision tree model on the training set. The AUC score measures how well a model distinguishes between two different categories, such as "left" and "did not leave" in our case. The higher the AUC score, the better the model is at making this distinction.
+
+![image](https://github.com/user-attachments/assets/c852bca3-6125-4869-bfd4-23383173ab04)
+
+This is a high AUC score, which demonstrates that this model is very good at predicting which employees will leave the company.
+
+Next, I can write a function that will help me extract all the scores from the grid search.
+
+![image](https://github.com/user-attachments/assets/de244d2f-f4dc-47d4-b3c3-ac1d3166f698)
+
+I use the function I just defined to obtain all the scores from the grid search.
+
+![image](https://github.com/user-attachments/assets/bd3c2450-f2c4-4149-b2c8-f2fa36c42904)
+ 
+All these scores obtained from the decision tree model are strong indicators of good model performance. Since decision trees can be vulnerable to overfitting, while random forests avoid overfitting by incorporating multiple trees for predictions, I could now build a random forest model.
+
+Random Forest – Round 1: I build a random forest model and set up a grid search with cross-validation to thoroughly search for the best model parameters.
+
+![image](https://github.com/user-attachments/assets/4e912157-5768-40b2-9f75-a70f95366de4)
+
+Fitto il modello di random forest sui dati di addestramento.
+
+![image](https://github.com/user-attachments/assets/d5fdb173-c020-46f9-a66d-227b203beba1)
+
+I specify the path where to save the training data.
+
+![image](https://github.com/user-attachments/assets/75108e52-f40a-46f0-82db-a9ccec6d5f88)
+
+I define functions to perform model saving (pickling) and to read the model.
+
+![image](https://github.com/user-attachments/assets/4944540f-42b7-4172-85eb-dcfa7fba1da4)
+
+I use these functions to save the model in a pickle file and then read it back.
+
+![image](https://github.com/user-attachments/assets/8e3493a5-9440-4a78-adc8-332fcdde5600)
+
+I identify the best AUC score achieved by the random forest model on the training set.
+
+![image](https://github.com/user-attachments/assets/7b6895f3-78a3-4a90-a5b7-1057e17d759c)
+
+I identify the optimal values for the parameters of the random forest model.
+
+![image](https://github.com/user-attachments/assets/964f9fd2-50d8-4cfc-891d-cae33bdaaf0c)
+
+I gather the evaluation scores on the training set for both the decision tree and random forest models.
+
+![image](https://github.com/user-attachments/assets/1e9fc960-2d8e-4f34-b34c-13ed12ce06c3)
+
+The evaluation scores of the random forest model are better than those of the decision tree model, except for recall (the random forest recall score is approximately 0.001 lower, a negligible amount). This indicates that the random forest model generally outperforms the decision tree model.
+
+Next, I can evaluate the final model on the test set.
+
+I define a function that retrieves all the scores from the model's predictions.
+
+![image](https://github.com/user-attachments/assets/04f57769-742e-4114-bfdc-21270a85050f)
+
+Now, I use the model with the best performance to make predictions on the test set.
+
+![image](https://github.com/user-attachments/assets/7367295f-5cc1-4680-8af8-ba9b5cbefcb3)
+
+The test scores are very similar to the validation scores, which is a positive sign. This indicates that the model is robust. Since this test set was used exclusively for this model, we can be more than confident that the model's performance on these data is representative of how it will perform on unseen new data.
+
+A concern is that our current models may be overly optimistic in their evaluation scores. This could be due to a phenomenon called data leakage, where the model uses information that is detached from reality. For example, the 'satisfaction level' column might not be available for all employees, and the 'average monthly hours' could be influenced by the fact that employees have already decided to leave the company. To improve the models, we could eliminate 'satisfaction level' and create a new feature called 'overload,' which indicates if an employee is working excessive hours. This could help us better predict who will leave the company.
+
+![image](https://github.com/user-attachments/assets/6a2d7fc2-9a23-4ad0-b461-0ed86dba1fc7)
+
+166.67 is approximately the average number of monthly hours for someone working 50 weeks a year, 5 days a week, 8 hours a day. Excessive working could be defined as working more than 175 hours per month on average. To make the "overload" column binary, the column could be redefined using a boolean mask.
+
+![image](https://github.com/user-attachments/assets/a9137d03-7959-4dab-81a2-ae76e3d1978b)
+
+I remove the column 'average_monthly_hours'.
+
+![image](https://github.com/user-attachments/assets/ef0f2172-659d-4efa-97d8-629780a147ca)
+
+Once again, I isolate the input variables and the target variable.
+
+![image](https://github.com/user-attachments/assets/1019f902-5675-4024-b428-c46dd72c1c4a)
+
+I split the data into training and test sets.
+
+![image](https://github.com/user-attachments/assets/07f2936d-cb69-441b-827d-ab09697062bf)
+
+Decision trees – round 2:
+
+![image](https://github.com/user-attachments/assets/fefc602c-22e1-491a-a7b9-8f3f892b399f)
+
+![image](https://github.com/user-attachments/assets/8a648767-071d-49c6-8c2a-02b17d703861)
+
+This model performs very well, even without the satisfaction levels and detailed working hours data.
+
+Next, let's check the other scores.
+
+![image](https://github.com/user-attachments/assets/62676661-3dc9-41df-8daa-2038ea2a4403)
+
+Some of the other scores have decreased. This is normal since fewer features were considered at this stage of the model. However, the scores are still very good.
+Random forest – round 2:
+
+![image](https://github.com/user-attachments/assets/5f9b149f-45f4-4668-aa08-88ab26ea3c81)
+![image](https://github.com/user-attachments/assets/9b3589c3-2b4f-4e73-b7a0-940b372a5146)
+![image](https://github.com/user-attachments/assets/3532bc9a-dc7f-4b38-a098-9706d0a65591)
+
+Once again, the scores have slightly decreased, but the random forest performs better than the decision tree when using AUC as the benchmark metric.
+Now let's evaluate the sample model on the test set.
+
+![image](https://github.com/user-attachments/assets/64d820c1-a401-42d9-9426-1d33b775dfc7)
+
+seems to be a stable and performant final model.
+Let's plot a confusion matrix to visualize how well it predicts on the test set.
+
+![image](https://github.com/user-attachments/assets/4a67f27f-45cd-4315-a7b9-30a5d892847b)
+
+The model predicts more false positives than false negatives, meaning that some employees may be identified as at risk of leaving when, in reality, they are not. However, it remains a solid model.
+
+For exploratory purposes, let's inspect the splits of the decision tree model and the most important features of the random forest model. Examining the decision tree splits provides a more detailed understanding of how the model makes its decisions, while identifying the most important features in the random forest offers insights into which variables most influence the model's predictions.
+
+![image](https://github.com/user-attachments/assets/a09698a3-4fc6-4761-bc67-bd5d3e8eb6fe)
+
+It is also possible to visualize the feature importance from decision trees.
+
+![image](https://github.com/user-attachments/assets/947732b2-54f7-4d7e-8fa7-aaea87cbee34)
+
+After obtaining the feature importance from the decision tree, you can create a bar chart to visualize them.
+
+![image](https://github.com/user-attachments/assets/3cb9c46e-163e-403b-88bd-fc3551bd69f1)
+
+The bar chart above shows that in this decision tree model, "last_evaluation", "number_project", tenure, and "overworked" have the highest importance, in that order. These variables are the most used in predicting the output variable, left.
+
+Now, let's plot the feature importance for the random forest model.
+  
+![image](https://github.com/user-attachments/assets/36d4bdd2-20b5-4462-84e8-d4f8f0c31a9d)
+
+The chart above shows that in this random forest model, "last_evaluation," "number_project," "tenure," and "overworked" have the highest importance, in this order. These variables are the most useful in predicting the output variable, "left," and they are the same ones used by the decision tree model.
+
+### EXECUTE
+
+The execution phase serves to put into practice the results obtained during the previous stages of the process. In this phase, the model's performance is interpreted, and the results are analyzed to extract useful insights. Then, steps and actions are shared with stakeholders to implement the recommendations derived from the analysis of data and models. Essentially, this phase aims to translate the model's results into concrete actions that can lead to improvements or informed decisions within the specific field where the study was conducted.
+
+MODEL RESULTS 
+
+Logistic Regression: The logistic regression model achieved an accuracy of 80%, recall of 83%, an F1 score of 80% (all weighted averages), and an accuracy of 83% on the test set.
+
+Tree-based Models: After performing feature engineering, the decision tree model achieved an AUC of 93.8%, precision of 87.0%, recall of 90.4%, F1 score of 88.7%, and accuracy of 96.2% on the test set. The random forest model slightly outperformed the decision tree model.
+
+Conclusions, Recommendations, Next Steps: The models and the feature importance extracted from the models confirm that the company’s employees are overloaded with work. To retain employees, the following recommendations could be presented to the stakeholders:
+
+•	Limit the number of projects employees can work on.
+
+•	Consider promoting employees who have been with the company for at least four years, or conduct further investigations into why employees with four years of tenure are so dissatisfied.
+
+•	Reward employees for working extra hours, or do not require them to do so.
+
+•	If employees are unaware of company policies regarding overtime, inform them. If expectations regarding workload and time off are not explicit, make them clear.
+
+•	Hold discussions at the company level and within teams to understand and address the company’s work culture across all sectors and specific contexts.
+
+•	High performance ratings should not be reserved for employees working more than 200 hours per month. Consider implementing a proportional scale to reward employees who contribute more/put in more effort.
 
 
 
@@ -308,4 +472,4 @@ Decision Tree – Round 1: I build a model based on decision trees as the first 
 
 
 
-
+  
