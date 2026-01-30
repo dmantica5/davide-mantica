@@ -7,7 +7,7 @@ These projects represent my initial approach to data analysis and visualization,
 
 
 ## Weekly Sales Analysis of Walmart (2010-2012)
-![img src="tableau-projects/Dashboard 1.png" width="500">](https://raw.githubusercontent.com/dmantica5/davide-mantica/refs/heads/main/Dashboard%201.png](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
+!([https://raw.githubusercontent.com/dmantica5/davide-mantica/refs/heads/main/Dashboard%201.png](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true))
 ### Introduction 
 This project started from a raw Excel dataset containing only numerical values with minimal context—no column names, no data types defined, and no clear indications of missing or anomalous data. To transform this into a structured and meaningful analysis, I conducted a sort of Exploratory Data Analysis (EDA), cleaned and preprocessed the dataset, and then created a dynamic Tableau dashboard to extract business insights.  
 
