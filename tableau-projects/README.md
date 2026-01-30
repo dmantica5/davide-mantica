@@ -126,7 +126,7 @@ Adding Filtering Options:
 ## Employee Retention Analysis
 
 
-![Employee Retention Analysis](https://github.com/dmantica5/davide-mantica/blob/main/tableau-projects/Immagine.png?raw=true)
+![Employee Retention Analysis](employee_retention.png)
 
 
 This project analyzes employee retention using various factors such as salary level, department, work accidents, promotions, satisfaction level, and performance evaluations.
