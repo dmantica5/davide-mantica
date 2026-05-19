@@ -2,7 +2,7 @@
 
 Questa sezione raccoglie i miei progetti Tableau, sviluppati per acquisire esperienza pratica con le funzionalità base del software. Ogni progetto si concentra sull'esplorazione e la visualizzazione di dataset per identificare trend, pattern e insight. Attraverso questi esercizi ho fatto pratica con le funzionalità chiave di Tableau, come le connessioni ai dati, i campi calcolati, i filtri e i dashboard interattivi.
 Questi progetti rappresentano il mio approccio iniziale all'analisi e alla visualizzazione dei dati, e sono al lavoro per sviluppare ulteriormente le mie competenze nel tempo. 
-[Qui puoi trovare la mia pagina Tableau].
+[Qui](https://public.tableau.com/app/profile/davide.mantica/vizzes) puoi trovare la mia pagina Tableau.
 
 
 
